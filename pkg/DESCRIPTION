@@ -1,0 +1,12 @@
+Package: biclustRank
+Type: Package
+Title: Ranking of biclusters using another data source
+Version: 1.0
+Date: 2015-01-21
+Author: Nolen Joy Perualila
+Maintainer: Nolen Joy Perualila <nolenjoy.perualila@uhasselt.be>
+Description: Evaluation and re-ranking of gene-expression based biclusters according to another source of compound information, e.g. the chemical structure, target prediction, bioactivity data, etc.
+ This is with the advantage of prioritizing subset of compounds with very similar profiles across data sources. 
+Depends: R (>= 2.10), ade4, fabia, isa2, biclust
+License: GPL-3
+LazyLoad: yes

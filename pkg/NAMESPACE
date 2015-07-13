@@ -1,0 +1,2 @@
+exportPattern("^[[:alpha:]]+")
+export(Distance, boxplotBC, choosefp, cumBC, extractBicList, extractSimBC, getLowerSim, heatmapBC, heatmapBC2, plotFabia, ppBC, statTab)
